@@ -1,8 +1,7 @@
 <?php
 class PagesController extends Controller{
 	
-	function view($nom){
-		$phrase = 'Bienvenue sur la page'.$nom;
+	function index(){
 		$this->render('index');
 	}
 }
